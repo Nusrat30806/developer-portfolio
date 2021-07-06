@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 h1{
     font-size: 50px;
@@ -52,4 +54,15 @@ section{
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+}
+#a{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+#b{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
 }
