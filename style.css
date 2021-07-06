@@ -35,3 +35,6 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.flexible-container{
+    display: flex;
+}
